@@ -1,9 +1,10 @@
 #!/bin/sh
+set -e
+
 mkdir -p ~/.vim
 cd ~/.vim
 wget -O cvim.zip http://www.vim.org/scripts/download_script.php?src_id=9679
 unzip cvim.zip
-set -e
 
 cd ~/.vim_runtime
 
