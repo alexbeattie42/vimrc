@@ -34,8 +34,11 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 " => YankStack
 """"""""""""""""""""""""""""""
+<<<<<<< HEAD
 let g:yankstack_yank_keys = ['y', 'd']
 
+=======
+>>>>>>> 866fbde30aa07e76a252039f94a5e3621693c68a
 nmap <c-p> <Plug>yankstack_substitute_older_paste
 nmap <c-n> <Plug>yankstack_substitute_newer_paste
 
@@ -94,7 +97,7 @@ let g:multi_cursor_next_key="\<C-s>"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => surround.vim config
-" Annotate strings with gettext 
+" Annotate strings with gettext
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vmap Si S(i_<esc>f)
 au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
